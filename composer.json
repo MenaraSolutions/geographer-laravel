@@ -1,0 +1,26 @@
+{
+    "name": "menarasolutions/geographer-laravel",
+    "type": "library",
+    "description": "Geographer integration classes for Laravel and Lumen",
+    "keywords": ["laravel","geographer","geolocation","localization"],
+    "homepage": "https://github.com/MenaraSolutions/geographer-laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Mysenko",
+            "email": "denis@menara.com.au",
+            "homepage": "https://www.menara.com.au"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "illuminate/support": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MenaraSolutions\\Geographer\\Integrations\\": "src/"
+        }
+    }
+}
