@@ -27,3 +27,5 @@ Good news is that Laravel will take care of singleton instance for you, so no ma
 // Start playing with it, all the same calls
 Geographer::getCountries()->useShortNames()->toArray();
 ```
+
+Full list of methods is available in [Geographer documentation](https://github.com/MenaraSolutions/geographer)
