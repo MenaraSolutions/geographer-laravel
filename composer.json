@@ -25,13 +25,13 @@
         }
     },
     "extra": {
-+        "laravel": {
-+            "providers": [
-+                "MenaraSolutions\\Geographer\\Integrations\\LaravelServiceProvider"
-+            ],
-+	    "aliases": {
-+                "Geographer": "MenaraSolutions\\Geographer\\Integrations\\LaravelFacade"
-+            }
-+        }
-+    }
+        "laravel": {
+            "providers": [
+                "MenaraSolutions\\Geographer\\Integrations\\LaravelServiceProvider"
+            ],
+	    "aliases": {
+                "Geographer": "MenaraSolutions\\Geographer\\Integrations\\LaravelFacade"
+            }
+        }
+    }
 }
